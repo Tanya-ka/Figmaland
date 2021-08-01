@@ -1,0 +1,73 @@
+.Specifically h2 {
+    margin: 0 auto;
+    margin-top: 107px;
+    margin-bottom: 45px;
+    width: 282px;
+}
+
+.Specifically ul {
+    margin-bottom: 97px;
+}
+
+.Specifically li {
+    max-width: 401px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.icon1 {
+    margin: 42px 0 22px;
+}
+
+.Specifically p {
+    margin: 30px auto;
+    width: 281px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.Specifically li+li {
+    margin-top: 64px;
+}
+
+.link {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    color: #03D6F3;
+    text-decoration: none;
+}
+
+.Specifically li:hover {
+    color: #fff;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+
+@media (max-width: 500px) {
+    .Specifically li {
+        width: 270px;
+    }
+    .Specifically p {
+        width: 240px;
+    }
+}
+@media (min-width: 769px) {
+    .Specifically h2 {
+        margin-top: 111px;
+        margin-bottom: 102px;
+        width: 740px;
+    }
+   
+}
+
+@media (min-width: 880px) {
+    .Specifically h2 {
+        margin-top: 111px;
+        width: 765px;
+    }
+}

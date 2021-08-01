@@ -1,0 +1,31 @@
+.Perfect h2 {
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 27px;
+    width: 374px;
+   
+}
+.Perfect p {
+    width: 352px;
+    margin: 0 auto;
+} 
+.Perfect img {
+    margin-top: 79px;
+    margin-bottom: 69px;
+    width: 90%;
+}
+
+.b4 {
+    padding: 30px 85px;
+}
+
+.Perfect a+a {
+    margin-top: 13px;
+    margin-bottom: 109px;
+}
+
+@media (min-width: 769px) {
+    .b4 {
+        padding: 18px 46px;
+    }
+}
