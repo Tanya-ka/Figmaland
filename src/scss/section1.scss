@@ -10,12 +10,14 @@
 }
 
 .Specifically li {
-    max-width: 401px;
+    max-width: 400px;
     border: 1px solid #DEDEDE;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     margin: 0 auto;
     padding-bottom: 50px;
+    color: #03D6F3;
+    
 }
 
 .icon1 {
@@ -43,8 +45,15 @@
 }
 
 .Specifically li:hover {
+    cursor: pointer;
     color: #fff;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+
+
+.Specifically-list-item-icon {
+    fill: currentColor;
 }
 
 
@@ -62,7 +71,9 @@
         margin-bottom: 102px;
         width: 740px;
     }
-   
+    .Specifically h3 {
+        text-align: left;
+    }
 }
 
 @media (min-width: 880px) {
@@ -70,4 +81,33 @@
         margin-top: 111px;
         width: 765px;
     }
+}
+
+@media (min-width: 992px) {
+    .Specifically h2 {
+        margin-top: 111px;
+        width: 765px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .Specifically ul {
+        display: flex;
+        margin: 0 auto;
+       
+    }
+    .Specifically li+li {
+        margin-left: 30px;
+    }
+    .Specifically li {
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: start;
+        // vertical-align: center;
+    }
+    .Specifically li+li {
+        margin-top: 0;
+    }
+   
 }

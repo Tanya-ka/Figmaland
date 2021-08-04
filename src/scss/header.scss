@@ -159,7 +159,9 @@ nav {
     header li+li {
         margin-left: 51px;
     }
-   
+    .burger {
+        display: none;
+    }
     .menu a {
         color: #FFF;
         text-decoration: none;
