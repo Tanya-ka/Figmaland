@@ -3,11 +3,21 @@ footer {
 }
 
 .container-f {
-    display: block;
+    margin: 0 auto;
+    max-width: 336px;
     padding-top: 72px;
     padding-bottom: 86px;
+   
+}
+.price {
+    display: flex;
+    justify-content: center;
 }
 
+.price ul+ul {
+    margin-left: 73px;
+    
+}
 .map {
     border-radius: 22px;
     margin-top: 88px;
@@ -30,31 +40,70 @@ footer {
     letter-spacing: 0.1px;
     color: #FFF;
     margin-top: 66px;
+    text-align: left;
 } 
-
-
-
-
-@media (max-width: 500px) {
-    .container-f {
-        width: 334px;
-        margin: 0 auto;
-    }
-   
+.icons {
+    display: flex;
+    margin-top: 20px;
+}
+.icons li+li {
+    margin-left: 32px;
 }
 
-@media (min-width: 769px) {
-    .container-f {
+.links a+a {
+   margin-top: 22px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    margin-right: 18px;
+}
+
+
+@media (min-width: 1320px) {
+    footer {
         display: flex;
-        min-width: 1100px;
         padding-top: 62px;
         padding-bottom: 62px;
-        justify-content: space-around;
-        text-align: left;
     }
-    
+    .container-f {
+        width: 100%;
+        max-width: 1336px;
+        // display: flex;
+        justify-content: space-around;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-columns: (3,1fr);
+        grid-template-rows: (6,1fr);
+    }
     .map {
         margin-top: 0;
         margin-bottom: 0;
+        grid-column: 2/3;
+        grid-row: 2/6;
     }
+    .price {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        align-items: flex-end;
+    }
+    .container-f p {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .links {
+        grid-column: 3/4;
+        grid-row: 3/5;
+        align-items: flex-end;
+    }
+    .icons {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
 }

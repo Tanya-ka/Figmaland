@@ -1,6 +1,6 @@
 hr {
     margin: 0 auto;
-    width: 452px;
+    max-width: 452px;
     border: 1px solid #D2D2D2;
     margin-bottom: 120px;
 }
@@ -55,11 +55,9 @@ form {
         width: 482px;
     }
     .subscribe input {
-        // padding: 16px 28px;
         border-radius: 7px;
     }
     .b6 {
-        // padding: 23px 20px;
         border-radius: 7px;
         margin: 0 auto;
         margin-top: 12px;
@@ -76,6 +74,9 @@ form {
     .b6 {
         text-transform: uppercase;
     }
+    hr {
+        width: 750px;
+    }
    
 }
 @media (max-width: 520px) {
@@ -83,3 +84,5 @@ form {
         width: 300px;
     }
 }
+
+

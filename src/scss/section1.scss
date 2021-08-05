@@ -1,38 +1,38 @@
-.Specifically h2 {
+.specifically h2 {
     margin: 0 auto;
     margin-top: 107px;
     margin-bottom: 45px;
-    width: 282px;
+    
 }
 
-.Specifically ul {
+.specifically ul {
     margin-bottom: 97px;
 }
 
-.Specifically li {
-    max-width: 400px;
+.specifically li {
+    max-width: 408px;
     border: 1px solid #DEDEDE;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     margin: 0 auto;
     padding-bottom: 50px;
-    color: #03D6F3;
-    
+    color: #03D6F3; 
 }
 
 .icon1 {
     margin: 42px 0 22px;
 }
 
-.Specifically p {
+.specifically p {
     margin: 30px auto;
-    width: 281px;
+    max-width: 281px;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
+    color:#5C5C5C;
 }
 
-.Specifically li+li {
+.specifically li+li {
     margin-top: 64px;
 }
 
@@ -44,69 +44,73 @@
     text-decoration: none;
 }
 
-.Specifically li:hover {
+.specifically li:hover {
     cursor: pointer;
     color: #fff;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
 }
 
-
-
-.Specifically-list-item-icon {
+.specifically-list-item-icon {
     fill: currentColor;
 }
 
 
 @media (max-width: 500px) {
-    .Specifically li {
-        width: 270px;
+    .specifically li {
+        max-width: 270px;
     }
-    .Specifically p {
-        width: 240px;
+    .specifically p {
+        max-width: 240px;
+    }
+}
+@media (max-width: 600px) {
+    .specifically h2 {
+        max-width: 282px;
     }
 }
 @media (min-width: 769px) {
-    .Specifically h2 {
+    .specifically h2 {
         margin-top: 111px;
         margin-bottom: 102px;
-        width: 740px;
-    }
-    .Specifically h3 {
-        text-align: left;
+        max-width: 740px;
     }
 }
 
 @media (min-width: 880px) {
-    .Specifically h2 {
+    .specifically h2 {
         margin-top: 111px;
-        width: 765px;
+        max-width: 765px;
     }
 }
 
-@media (min-width: 992px) {
-    .Specifically h2 {
-        margin-top: 111px;
-        width: 765px;
+
+@media (min-width: 1320px) {
+    .specifically {
+        padding-bottom: 138px;
     }
 
-}
-
-@media (min-width: 992px) {
-    .Specifically ul {
+    .container-1 {
+        margin: 0 auto;
+        width: 1300px;
+    }
+    .specifically ul {
         display: flex;
         margin: 0 auto;
        
     }
-    .Specifically li+li {
+    .specifically li+li {
         margin-left: 30px;
     }
-    .Specifically li {
+    .specifically li {
         padding-left: 60px;
         padding-right: 60px;
         text-align: start;
-        // vertical-align: center;
     }
-    .Specifically li+li {
+
+    .specifically h3 {
+        text-align: start;
+    }
+    .specifically li+li {
         margin-top: 0;
     }
    

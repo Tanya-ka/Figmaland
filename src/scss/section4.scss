@@ -1,31 +1,69 @@
-.Perfect h2 {
+.perfect h2 {
     margin: 0 auto;
     margin-top: 72px;
     margin-bottom: 27px;
-    width: 374px;
-   
+    max-width: 374px;
+
 }
-.Perfect p {
+.perfect p {
     width: 352px;
     margin: 0 auto;
 } 
-.Perfect img {
+.perfect img {
     margin-top: 79px;
     margin-bottom: 69px;
-    width: 90%;
+    width: 100%;
 }
 
 .b4 {
     padding: 30px 85px;
 }
 
-.Perfect a+a {
+.perfect a+a {
     margin-top: 13px;
     margin-bottom: 109px;
 }
 
-@media (min-width: 769px) {
+
+@media (max-width: 1319px) {
+    .container-1 {
+        margin: 0 auto;
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .container-1 {
+        max-width: 1300px;
+    }
     .b4 {
         padding: 18px 46px;
+    }
+    .perfect {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 55% 45%;
+        padding-top: 124px;
+        justify-items: start;
+    }
+  
+    .perfect-text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: start;
+    }
+    .perfect img {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .perfect-a {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .perfect a+a {
+        margin-left: 8px;
     }
 }
