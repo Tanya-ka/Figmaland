@@ -20,7 +20,7 @@ function html() {
 }
 
 function scss() {
-    return src('src/scss/**.scss')
+    return src(['src/scss/normalize.scss','src/scss/**.scss'])
         .pipe(sass())
         .pipe(prefix())
         .pipe(csso())
