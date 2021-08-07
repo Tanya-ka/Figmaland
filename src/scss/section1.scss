@@ -2,7 +2,7 @@
     margin: 0 auto;
     margin-top: 107px;
     margin-bottom: 45px;
-    
+
 }
 
 .specifically ul {
@@ -16,7 +16,7 @@
     border-radius: 10px;
     margin: 0 auto;
     padding-bottom: 50px;
-    color: #03D6F3; 
+    color: #03D6F3;
 }
 
 .icon1 {
@@ -46,8 +46,14 @@
 
 .specifically li:hover {
     cursor: pointer;
-    color: #fff;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+.specifically li:hover,
+.specifically li:hover h3,
+.specifically li:hover p,
+.specifically li:hover a {
+    color: #fff;
 }
 
 .specifically-list-item-icon {
@@ -96,7 +102,7 @@
     .specifically ul {
         display: flex;
         margin: 0 auto;
-       
+
     }
     .specifically li+li {
         margin-left: 30px;
@@ -113,5 +119,5 @@
     .specifically li+li {
         margin-top: 0;
     }
-   
+
 }
