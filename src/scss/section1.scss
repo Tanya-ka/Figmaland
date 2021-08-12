@@ -46,8 +46,14 @@
 
 .specifically li:hover {
     cursor: pointer;
-    color: #fff;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+.specifically li:hover,
+.specifically li:hover h3,
+.specifically li:hover p,
+.specifically li:hover a {
+    color: #fff;
 }
 
 .specifically-list-item-icon {
